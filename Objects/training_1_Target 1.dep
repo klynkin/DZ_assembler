@@ -1,0 +1,6 @@
+Dependencies for Project 'training_1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\stm32f10x.s)(0x5DA0A163)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"D:\program files\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\program files\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_MD SETA 1"--list .\listings\stm32f10x.lst --xref -o .\objects\stm32f10x.o --depend .\objects\stm32f10x.d)
+F (.\config.s)(0x5DC08A40)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"D:\program files\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\program files\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_MD SETA 1"--list .\listings\config.lst --xref -o .\objects\config.o --depend .\objects\config.d)
+F (.\main.s)(0x5DC1AE66)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"D:\program files\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\program files\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_MD SETA 1"--list .\listings\main.lst --xref -o .\objects\main.o --depend .\objects\main.d)
+I (config.s)(0x5DC08A40)
+I (stm32f10x.s)(0x5DA0A163)

@@ -1,0 +1,6 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I.\RTE\_Target_1
+-I"D:\program files\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"
+-I"D:\program files\ARM\CMSIS\Include"
+--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_MD SETA 1"
+--list .\listings\lab_1_train.lst --xref -o .\objects\lab_1_train.o --depend .\objects\lab_1_train.d "lab_1_train.s"
