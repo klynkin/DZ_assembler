@@ -10,16 +10,19 @@ ARM Macro Assembler    Page 1
                        STACK_TOP
                                EQU              0x20000100  ; Вершина с
                                                             тека
-    4 00000000 00100000 
+    4 00000000 20000650 
+                       ARRAY_POINTER
+                               EQU              0x20000650
+    5 00000000 00100000 
                        DELAY_VAL
                                EQU              0x100000    ; Величина 
                                                             задержки
-    5 00000000 00000006 
+    6 00000000 00000006 
                        SIZE_1  EQU              0x00000006  ;
-    6 00000000 00000005 
+    7 00000000 00000005 
                        SIZE_2  EQU              0x00000005  ;
-    7 00000000         
-    8 00000000                 END
+    8 00000000         
+    9 00000000                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\config.d -o.\objects\config.o -I.\RTE\_Target_1 -I"D:\pr
 ogram files\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include" -I"D:\program fil
@@ -32,11 +35,19 @@ ig.s
 ARM Macro Assembler    Page 1 Alphabetic symbol ordering
 Absolute symbols
 
+ARRAY_POINTER 20000650
+
+Symbol: ARRAY_POINTER
+   Definitions
+      At line 4 in file config.s
+   Uses
+      None
+Comment: ARRAY_POINTER unused
 DELAY_VAL 00100000
 
 Symbol: DELAY_VAL
    Definitions
-      At line 4 in file config.s
+      At line 5 in file config.s
    Uses
       None
 Comment: DELAY_VAL unused
@@ -44,7 +55,7 @@ SIZE_1 00000006
 
 Symbol: SIZE_1
    Definitions
-      At line 5 in file config.s
+      At line 6 in file config.s
    Uses
       None
 Comment: SIZE_1 unused
@@ -52,7 +63,7 @@ SIZE_2 00000005
 
 Symbol: SIZE_2
    Definitions
-      At line 6 in file config.s
+      At line 7 in file config.s
    Uses
       None
 Comment: SIZE_2 unused
@@ -64,5 +75,5 @@ Symbol: STACK_TOP
    Uses
       None
 Comment: STACK_TOP unused
-4 symbols
-337 symbols in table
+5 symbols
+338 symbols in table
