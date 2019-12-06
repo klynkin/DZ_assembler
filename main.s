@@ -99,7 +99,7 @@ new_k
 	
 	CMP		R8,#SIZE_1
 	IT		GE							
-	BGE		next_k				;если k>N, то элемент свертки нулевой
+	BGE		next_k				;если k>=N, то элемент свертки нулевой
 	SUBS	R9,R6,R8			;n-k
 	IT		LT
 	BLT		next_k				;если n-k<0, то элемент свертки нулевой
